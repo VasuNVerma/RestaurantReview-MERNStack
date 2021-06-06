@@ -21,6 +21,7 @@ export default class RestaurantsDAO {
                 name: user.name,
                 user_id: user._id,
                 text: review,
+                date: date,
                 restaurant_id: ObjectId(restaurantId)
             }
 
